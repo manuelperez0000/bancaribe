@@ -1,0 +1,82 @@
+body {
+background: linear-gradient(70deg, #09d5f1, #ffffff);
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+justify-content: center;
+align-items: center;
+height: 100vh;
+flex-direction: column;
+}
+
+h4 {
+        background-image: linear-gradient(to right, #032525, #edfdfd);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        font-family: "Times New Roman", serif;
+        font-size: 25px;
+        margin-bottom: 30px;
+        text-align: center;
+      
+}
+
+p {
+    text-align: center;
+    background-clip: text;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+    
+
+}
+
+.container {
+background: linear-gradient(to right, #09d5f1, black);
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+margin: auto;
+margin-top: 100px;
+padding: 30px;
+width: 400px;
+
+}
+
+form label {
+    background-image: linear-gradient(to right, #032525, #edfdfd);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+form input[type="text"], form input[type="password"] {
+background-color: #f2f2f2;
+border: none;
+border-radius: 20px;
+box-sizing:border-box;
+color: #026d6d;;
+font-size: 15px;
+margin-bottom: 30px;
+padding: 15px;
+width: 100%;
+}
+
+form button[type="submit"] {
+    background-color: #edfdfd;
+    border: none;
+    border-radius: 20px;
+    color: #cfecf0;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 15px;
+    width: 100%;
+    display: flex;
+  }
+
+

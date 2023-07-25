@@ -1,0 +1,81 @@
+body {
+    background: linear-gradient(0deg, #ffffff, #ffffff);
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.login {
+    background-color: rgb(0,75,133);
+    border-radius: 20px;
+    margin:20px auto;
+    padding: 40px;
+    color: #ffffff;
+}
+.login h4{
+    color: rgb(255, 255, 255);
+}
+.logo{
+    height: 50px;
+}
+.nav-bar{
+    background-color: rgb(0,75,133);
+    padding: 10px 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+}
+.navegador a{
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+
+}
+.btn-inicio{
+    background-color: aliceblue;
+    border: 0px solid transparent;
+    border-radius: 5px;
+    color: rgb(0,75,133);
+    font-size: 18px;
+    padding: 5px 50px;
+    font-weight: 600;
+}
+.btn-inicio:hover{
+    background-color: #ffffffb9;
+}
+.form-control{
+    border-radius: 20px !important;
+}
+.btn-inicio{
+    border-radius: 20px !important;
+}
+.d-buttons{
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-icons{
+    transition: transform 0.3s ease-in-out;
+}
+.btn-icons:hover{
+    background-color: rgb(0, 133, 104);
+    color: #ffffff;
+    transform: rotate(3deg);
+}
+.btn-icons-delete{
+    transition: transform 0.3s ease-in-out;
+}
+.btn-icons-delete:hover{
+    background-color: rgb(146, 13, 44);
+    color: #ffffff;
+    transform: rotate(3deg);
+}

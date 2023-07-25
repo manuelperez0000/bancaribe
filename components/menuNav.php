@@ -37,6 +37,8 @@
                             <li><a class="dropdown-item" href="bitacora.php">Eliminar o modificar</a></li>
                         </ul>
                     </li>
+                    <hr>
+                    <li><a class="dropdown-item" href="index.php">Cerrar sesion</a></li>
                 </ul>
             </div>
         </div>
